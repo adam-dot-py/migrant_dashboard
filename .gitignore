@@ -15,4 +15,4 @@ wheels/
 ducklake_syntax.txt
 /.python-version
 .DS_Store
-chart_helper.py
+secrets.toml
