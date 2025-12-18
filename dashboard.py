@@ -127,7 +127,7 @@ previous_year_total_migrants_arrived = (
 f"""
 ## Summary as {latest_date:%d %B %Y}
 
-Please note *Latest Migrants Arrived* is based upon a preliminary dataset subject to change that is updated quicker than
+Please note *Total Migrants That Arrived on* is based upon a preliminary dataset subject to change that is updated quicker than
 the more comprehensive statistical tables. Other metrics lag behind by approximately **1 week** (new data every Friday).
 """
 
