@@ -28,11 +28,6 @@ def extract_daily_data():
     # setup paths
     p = Path()
     incoming_path = p / 'incoming'
-    data_path = p / 'data'
-
-    # fetch latest data
-    fetch_migrant_data()
-    time.sleep(3)
 
     schema_overrides = {
         'Date': pl.Date(),
@@ -62,9 +57,6 @@ def extract_daily_data():
             pl.lit(f.name).alias('source')
         )
         all_data.append(_df)
-        source_dir = incoming_path / f.name
-        target_dir = data_path / f.name
-        shutil.move(source_dir, target_dir)
 
     # create the polars dataframe
     df = pl.concat(all_data)
