@@ -9,8 +9,12 @@ from datetime import datetime
 
 def extract_seven_day_data():
     """
-    _docstring
-    :return:
+    Extracts the latest snapshot UK Government daily statistical data for the last 7 days
+
+    Args:
+        None
+    Returns:
+        None
     """
 
     # setup logging

@@ -9,8 +9,12 @@ from extract_data import fetch_migrant_data
 
 def extract_weekly_data():
     """
-    _docstring
-    :return: 
+    Extracts the latest UK Government weekly statistical data on migrant crossings
+
+    Args:
+        None
+    Returns:
+        None
     """
 
     # setup logging
