@@ -1,6 +1,6 @@
+import duckdb
 import shutil
 import time
-import duckdb
 from pathlib import Path
 from ingest_7_day_data import extract_seven_day_data
 from ingest_daily_data import extract_daily_data
